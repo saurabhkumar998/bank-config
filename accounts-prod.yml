@@ -7,6 +7,7 @@ accounts:
     name: "Glen Maxwell - Developer"
     ## encryped the below value using config server's encrypt url and the secret is stored in the config server's application.yml 
     ##which can also be passed as a command line argument for security purpose. actual email is glen@bank.com, encryped email is stored below
+    ## config server will decrypt this value after fetching it from this repository as the server has the encryption key stored in it
     email: "{cipher}3d9f7a95562294ba2c574b504cdcedc513196a08782ed8948959a4e8fe9760d5"
   onCallSupport:
     - 912323564563
