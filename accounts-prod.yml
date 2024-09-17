@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to Bank accounts related Production APIs "
+  message: "Welcome to Bank accounts related Prod APIs "
   contactDetails:
     name: "Glen Maxwell - Developer"
     ## encryped the below value using config server's encrypt url and the secret is stored in the config server's application.yml 
